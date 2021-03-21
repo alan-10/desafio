@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import  { useContext } from 'react';
 import { Tool, Header } from './styles';
 
 import ModalDeliteToll from '../ModalDeliteTool';
@@ -34,7 +34,7 @@ const Tools:React.FC<ToolsProps> = ({ tools }) => {
       </Header>
       <p>{tools.description}</p> <br/>
 
-      {tools.tags.map((tag, index) => (<strong >#{tag} </strong> ))}
+      {tools.tags.map((tag, index) => (<strong key={index}>#{tag} </strong> ))}
 
     </Tool>
   )

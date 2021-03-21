@@ -1,4 +1,4 @@
-import React, { useState, useEffect , useContext } from 'react';
+import  { useState, useEffect , useContext } from 'react';
 import Tools, { Tool } from '../../components/Tools' 
 import api from '../../services/api';
 
@@ -24,7 +24,7 @@ function Main(){
   }, [loadingComponent]);
 
   async function updateChackedSearch(){
-    await setCheckedOnTags(!checkedOnTags);
+     setCheckedOnTags(!checkedOnTags);
     
   }
 
@@ -61,8 +61,8 @@ function Main(){
                 />
                 <label><input type="checkbox"
                     name="" id="search"
-                    checked={checkedOnTags}
-                   onClick={updateChackedSearch}
+                    checked={checkedOnTags }
+                   onChange={updateChackedSearch}
                  />
                 <p>search in tag only</p></label>
               </span>
