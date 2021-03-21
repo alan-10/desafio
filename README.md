@@ -14,7 +14,7 @@ Ter o yarn instalado em sua maquina
 $ git clone <https://github.com/alan-10/desafio-front.git>
 
 ### Instale as dependências 
-$ yarn install caso não funcione npm instakk
+$ yarn install caso não funcione npm install
 
 ### Configuração caso você use windows
 Localizar o arquivo packege.json 
