@@ -6,6 +6,7 @@ export const Tool = styled.div`
   padding:0 0.5rem;
   margin: 1.8rem 0;
   line-height:2rem;
+  border-radius:4px;
 `;
 
 export const Header = styled.div`
